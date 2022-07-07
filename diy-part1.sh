@@ -16,3 +16,5 @@
 # Add a feed source
 sed -i "/Boos4721/d" "feeds.conf.default"
 sed -i '$a src-git Boos4721 https://github.com/Boos4721/OpenWrt-Packages' feeds.conf.default
+sed -i "/OpenAppFilter/d" "feeds.conf.default"
+sed -i '$a src-git OpenAppFilter https://github.com/destan19/OpenAppFilter' feeds.conf.default
